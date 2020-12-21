@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './App.scss';
-import List from '../List/ListContainer';
+import List from '../List/ListContainer.js';
 import PropTypes from 'prop-types';
 
-class App extends React.Component {
 
+class App extends React.Component {
   static propTypes = {
     title: PropTypes.node,
     subtitle: PropTypes.node,
@@ -12,7 +12,7 @@ class App extends React.Component {
   }
 
   render() {
-    const { title, subtitle, lists } = this.props;
+    const {lists, title, subtitle} = this.props;
     return (
       <main className={styles.component}>
         <h1 className={styles.title}>{title}</h1>
@@ -24,6 +24,5 @@ class App extends React.Component {
     );
   }
 }
-
 
 export default App;

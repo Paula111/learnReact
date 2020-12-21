@@ -7,8 +7,9 @@ class Card extends React.Component {
   static propTypes = {
     title: PropTypes.string.isRequired,
   }
+
   render() {
-    const {title} = this.props;
+    const { title } = this.props;
     return (
       <section className={styles.component}>
         <h3 className={styles.title}>
