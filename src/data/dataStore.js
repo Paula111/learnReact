@@ -20,16 +20,16 @@ export const pageContents = {
   subtitle: 'A simple to-do app, with lists, columns and cards',
 };
 
-export const InfoContent ={
+export const InfoContent = {
   title: 'Important things you need to know',
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
   image: 'https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg',
 };
 
-export const FAQContent ={
+export const FAQContent = {
   title: 'Less important things you need to know',
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-  image:'https://images.pexels.com/photos/1229042/pexels-photo-1229042.jpeg',
+  image: 'https://images.pexels.com/photos/1229042/pexels-photo-1229042.jpeg',
 };
 
 export const listData = {
@@ -91,6 +91,20 @@ const lists = [
     title: 'Things to do <sup>soon!</sup>',
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+
+  {
+    id: 'list-2',
+    title: 'Places to see <sup>soon!</sup>',
+    description: 'Interesting places I want to see!',
+    image: 'https://images.pexels.com/photos/3769120/pexels-photo-3769120.jpeg',
+  },
+
+  {
+    id: 'list-3',
+    title: 'Music I want to listen to <sup>soon!</sup>',
+    description: 'Interesting music I want to listen to!',
+    image: 'https://images.pexels.com/photos/167092/pexels-photo-167092.jpeg',
   },
 ];
 
